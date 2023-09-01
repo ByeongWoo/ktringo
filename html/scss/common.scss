@@ -11,7 +11,7 @@ body {
 }
 body {
   font-family: "Pretendard";
-  color: #706be9;
+  color: #222222;
   background: #f6f6f6;
   padding: env(safe-area-inset-top, 20px) env(safe-area-inset-right, 20px)
     env(safe-area-inset-bottom, 20px) env(safe-area-inset-left, 20px);
@@ -341,7 +341,7 @@ label.custom-select {
 
 // header
 .header_wrap {
-  background: #706be9;
+  background: $primary-color;
   padding: 16px 24px;
   &-title {
     display: flex;
