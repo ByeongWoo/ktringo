@@ -34,6 +34,9 @@ var navigation = function () {
 	}, 250);
 	function hasScrolled() {
 		var st = $(this).scrollTop();
+		if (st == 0) {
+			alert("top");
+		}
 		if (Math.abs(lastScrollTop - st) <= delta) return;
 		// bottom nav
 		if (st > lastScrollTop && st > navbarHeight) {
