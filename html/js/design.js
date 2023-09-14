@@ -34,8 +34,10 @@ var navigation = function () {
 	}, 250);
 	function hasScrolled() {
 		var st = $(this).scrollTop();
-		if (st == 0) {
-			alert("top");
+		if (st < 1) {
+			// 새로고침 스크립트 실행
+			location.reload();
+			
 		}
 		if (Math.abs(lastScrollTop - st) <= delta) return;
 		// bottom nav
