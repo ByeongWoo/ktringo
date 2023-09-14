@@ -1,6 +1,6 @@
 {
-  "short_name": "Web Push",
-  "name": "Web Push",
+  "short_name": "RINGO TEST",
+  "name": "RINGO TEST",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": "/",
   "display": "standalone",
-  "theme_color": "#706be9",
+  "theme_color": "#000000",
   "background_color": "#ffffff"
 }
