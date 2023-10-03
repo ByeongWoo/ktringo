@@ -57,7 +57,7 @@ var navigation = function () {
 			}
 		}
 		// header
-		$(".header_wrap").addClass("fixed");
+		// $(".header_wrap").addClass("scroll");
 		// if (st > lastScrollTop && st > headerTitle) {
 		// 	// Scroll Down
 		// 	$(".header_wrap").addClass("scroll");
