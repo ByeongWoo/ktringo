@@ -45,27 +45,18 @@ var navigation = function () {
 		if (st > lastScrollTop && st > navbarHeight) {
 			// Scroll Down
 			$(".navigator.mobile").removeClass("fixed");
-			$(".header_wrap").addClass("scroll");
+			// $(".header_wrap").addClass("scroll");
 		} else {
 			// Scroll Up
 			if (st + $(window).height() < $(document).height()) {
 				$(".navigator.mobile").addClass("fixed");
-				$(".header_wrap").removeClass("scroll");
+				// $(".header_wrap").removeClass("scroll");
 
 				$(".navigator.mobile").addClass("fixed");
-				$(".header_wrap").removeClass("scroll");
+				// $(".header_wrap").removeClass("scroll");
 			}
 		}
-		// header
-		if (st > lastScrollTop && st > headerTitle) {
-			// Scroll Down
-			$(".header_wrap").addClass("scroll");
-		} else {
-			// Scroll Up
-			if (st + $(window).height() < $(document).height()) {
-				$(".header_wrap").removeClass("scroll");
-			}
-		}
+		
 		lastScrollTop = st;
 	}
 };
