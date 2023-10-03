@@ -50,10 +50,10 @@ var navigation = function () {
 			// Scroll Up
 			if (st + $(window).height() < $(document).height()) {
 				$(".navigator.mobile").addClass("fixed");
-				// $(".header_wrap").removeClass("scroll");
+				$(".header_wrap").removeClass("scroll");
 
 				$(".navigator.mobile").addClass("fixed");
-				// $(".header_wrap").removeClass("scroll");
+				$(".header_wrap").removeClass("scroll");
 			}
 		}
 		// header
