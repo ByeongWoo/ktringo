@@ -8,8 +8,7 @@
       name="viewport"
       content="user-scalable=no, width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1.0, viewport-fit=cover"
     />
-    <!-- <link href=".ico" rel="shortcut icon" /> -->
-    <!-- <link rel="apple-touch-icon-precomposed" href=".png" /> -->
+
     <meta name="format-detection" content="telephone=no" />
     <title>AI 링고</title>
     <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
@@ -20,18 +19,24 @@
     <link rel="stylesheet" href="css/contents.css" />
   </head>
   <body>
-    <!-- s:당겨받기 230905 수정 -->
-    <div class="pull_wrap">
-      <div class="info_text">
-        010-1234-1234 에서<br />
-        링고치킨 02-0000-0000(으)로 전화가 왔습니다<br />
-        신청하신 휴대전화 번호로 받으시겠습니까?
-      </div>
-      <div class="btn_wrap">
-        <button class="btn_call"></button>
-        <span class="t">당겨받기</span>
+    <!-- s: 230905 팝업 html -->
+    <div id="" class="modal notice" style="display: block">
+      <a href="" class="close-modal">close</a>
+      <div class="modal_body">
+        <div class="poptext_wrap">
+          <p class="t3">선택한 번호로 전화를 거시겠습니까?</p>
+          <p class="t3">연결 시 고객님의 휴대전화 번호가</p>
+          <p class="t3">상대방에게 표시됩니다.</p>
+
+          <div class="modal_footer">
+            <div class="btn_row">
+              <button type="button" class="btn_round third">취소</button>
+              <button type="button" class="btn_round">전화걸기</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- e:당겨받기 230905 수정 -->
+    <!-- e: 230905 팝업 html -->
   </body>
 </html>

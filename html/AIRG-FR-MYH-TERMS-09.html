@@ -405,28 +405,14 @@
     <!-- s: 약관 변경 안내 full popup -->
     <div class="full_page layerPopUp show" layer="">
       <div class="full_page-header">
-        <div class="title">Push 알림 설정 안내</div>
-        <button class="btn_popclose"><span>닫기</span></button>
+        <div class="title">
+          마케팅 및 이벤트 목적의 개인정보 수집 및 이용 동의
+        </div>
+        <button class="btn_popclose" onclick="windowclose();"><span>닫기</span></button>
       </div>
       <div class="full_page-cont">
         <!-- s:tab -->
         <div class="common-tab">
-          <!-- s:menu -->
-          <div class="tab_width mobile_full">
-            <ul class="tab_wrap tab-btn">
-              <li class="selectd">
-                <span class="tit">안드로이드폰</span>
-              </li>
-              <li>
-                <span class="tit">아이폰</span>
-              </li>
-              <li>
-                <span class="tit">PC</span>
-              </li>
-            </ul>
-          </div>
-          <!-- e:menu -->
-
           <!-- s:panel -->
           <div class="tab-panel mobile_full">
             <!-- s:메인 -->
@@ -434,254 +420,99 @@
               <div class="cont_body">
                 <!-- s:tab -->
                 <div class="inner-tab">
-                  <!-- s:menu -->
-                  <div class="tab_width">
-                    <ul class="tab-btn2">
-                      <li class="selectd">
-                        <span class="tit">크롬</span>
-                      </li>
-                      <li>
-                        <span class="tit">삼성</span>
-                      </li>
-                    </ul>
-                  </div>
-                  <!-- e:menu -->
-
                   <!-- s:panel -->
                   <div class="tab-panel2">
                     <!-- s:안드로이드폰 -->
                     <div class="tab-item selectd">
                       <div class="cont_body">
-                        <p class="info_t1">크롬 Pushl알림 받기 설정 안내</p>
+                        <p class="info_t1"></p>
                         <p class="info_t2">
-                          1. 브라우저 <strong>“크롬”</strong>을 실행합니다.
+                          AI링고(이하 “서비스”라 한다)와 관련하여, 본인은
+                          동의내용을 숙지하였으며, 이에 따라 본인의 개인정보를
+                          귀사(주식회사 케이티)가 수집/이용함에 동의합니다.
                         </p>
-                        <p class="info_t2">
-                          2. 로그인 후 크롬 브라우저 우측 상단의
-                          <strong>더보기(⋮)</strong> 버튼을 선택합니다.
-                        </p>
-                        <div class="info_img">
-                          <img src="images/chrome/00.png" alt="02" />
-                        </div>
 
-                        <p class="info_t2">
-                          3. <strong>“설정”</strong> 을 선택합니다.
-                        </p>
-                        <div class="info_img">
-                          <img src="images/chrome/01.png" alt="03" />
-                        </div>
+                        <table class="table_type1">
+                          <colgroup>
+                            <col style="width: 40%" />
+                            <col style="width: 40%" />
+                            <col style="width: 20%" />
+                          </colgroup>
+                          <thead>
+                            <tr>
+                              <th>수집/이용 목적</th>
+                              <th>수집 항목</th>
+                              <th>보유 및 이용기간</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr class="">
+                              <td>
+                                <ul>
+                                  <li>
+                                    • 서비스와 케이티가 제공하는 다른 상품,
+                                    서비스간, 개인정보의 결합/분석 및 이를 통한
+                                    연계 서비스 제공
+                                  </li>
+                                  <li>
+                                    • KT 및 제 3자(KT그룹사, 협력사, 제휴사
+                                    등)의 상품/서비스/혜택에 대한 개인 맞춤
+                                    추천, 정보 제공/안내, 할인제도 소개/가입의사
+                                    확인/리텐션/이벤트 안내 등 마케팅
+                                  </li>
+                                  <li>• 신규서비스 개발, 서비스 개선</li>
+                                  <li>
+                                    • 고객 세분화,
+                                    선호도/라이프스타일/사회적관계 추청, 우량
+                                    등급 고객 선정
+                                  </li>
+                                  <li>• 상기 목적을 위한 개인정보 분석</li>
+                                </ul>
+                              </td>
+                              <td>
+                                <ul>
+                                  <li>
+                                    • 서비스 이용을 위해 필수 동의한 개인정보
+                                    항목
+                                  </li>
+                                  <li>
+                                    • 서비스 이용기록, 접속로그, 쿠키,
+                                    접속IP정보, 기기정보, 유저ID, 결제기록,
+                                    이용정지기록, 발신/수신 전화번호, 통화시각,
+                                    사용도수, 통화중의 발화 음성언어정보
+                                  </li>
+                                  <li>
+                                    • 고객 본인 명의로 가입한 KT제공
+                                    서비스(일반전화, 부가서비스 등) 신청 시 수집
+                                    및 이용에 동의한 모든 항목
+                                  </li>
+                                  <li>
+                                    • 상기 본항의 정보들을 조합하여 생성된 정보
+                                  </li>
+                                </ul>
+                              </td>
+                              <td rowspan="3">서비스 이용 기간</td>
+                            </tr>
+                          </tbody>
+                        </table>
 
-                        <p class="info_t2">
-                          4. 사이트 설정 에서 <strong>“알림”</strong> 선택
-                          합니다.
+                        <p class="info_t3">
+                          ※ 본 동의는 서비스의 선택적 고객혜택 및 프로모션 등
+                          광고/정보 제공을 위한 개인정보 수집/이용에 대한
+                          동의로서, 동의하지 않더라도 서비스 이용이 가능합니다.
                         </p>
-                        <div class="info_img">
-                          <img src="images/chrome/02.png" alt="04" />
-                        </div>
-
-                        <p class="info_t2">
-                          5. 앱 알림에서 <strong>“알림허용”</strong> 으로 변경
-                          합니다.
+                        <p class="info_t3">
+                          ※ 법령에 따른 개인정보의 수집/이용, 계약의 이행/편의
+                          증진을 위한 개인정보 처리위탁 및 개인정보 처리와
+                          관련된 일반 사항은 서비스 웹의 ‘개인정보처리방침’에
+                          따릅니다.
                         </p>
-                        <div class="info_img">
-                          <img src="images/chrome/03.png" alt="05" />
-                        </div>
-
-                        <p class="info_t2">
-                          6. 하단으로 내려
-                          <strong>“앱 알림 상세설정”</strong> 선택 합니다.
-                        </p>
-                        <div class="info_img">
-                          <img src="images/chrome/03_2.png" alt="06" />
-                        </div>
-
-                        <p class="info_t2">
-                          7. 차단 사이트 목록중
-                          <strong>“ *.ringo.co.kr” </strong>있는지 확인 하고
-                          선택 합니다.
-                        </p>
-                        <div class="info_img">
-                          <img src="images/chrome/04.png" alt="07" />
-                        </div>
-
-                        <p class="info_t2">
-                          8. 알림 허용에서
-                          <strong>“ *.ringo.co.kr” </strong> 으로 변경 합니다
-                        </p>
-                        <div class="info_img">
-                          <img src="images/chrome/05.png" alt="08" />
-                        </div>
-                      </div>
-                    </div>
-                    <!-- s:삼성 -->
-                    <div class="tab-item">
-                      <div class="cont_body">
-                        <!-- s -->
-                        <p class="info_t1">삼성 Pushl알림 받기 설정 안내</p>
-                        <p class="info_t2">
-                          1. 브라우저 <strong>“삼성”</strong>을 실행합니다.
-                        </p>
-                        <p class="info_t2">
-                          2. 삼성 브라우저 하단 메뉴의
-                          <strong>“더보기”</strong> 버튼을 선택합니다.
-                        </p>
-                        <div class="info_img">
-                          <img src="images/sb/00.png" alt="02" />
-                        </div>
-
-                        <p class="info_t2">
-                          3. <strong>“설정”</strong> 을 선택합니다.
-                        </p>
-                        <div class="info_img">
-                          <img src="images/sb/01.png" alt="03" />
-                        </div>
-
-                        <p class="info_t2">
-                          4. 인터넷 설정 에서
-                          <strong>“사이트 및 다운로드”</strong> 선택 합니다.
-                        </p>
-                        <div class="info_img">
-                          <img src="images/sb/02.png" alt="04" />
-                        </div>
-
-                        <p class="info_t2">
-                          5. 사이트 및 다운로드에서 <strong>“알림”</strong> 선택
-                          합니다.
-                        </p>
-                        <div class="info_img">
-                          <img src="images/sb/03.png" alt="05" />
-                        </div>
-
-                        <p class="info_t2">
-                          6. 차단 사이트 목록 중 *.ringo.co.kr 있는지 확인 하고
-                          선택 합니다.
-                        </p>
-                        <div class="info_img">
-                          <img src="images/sb/04.png" alt="06" />
-                        </div>
-
-                        <p class="info_t2">
-                          7. *.ringo.co.kr 사이트의 알림 차단이면
-                          <strong>“알림허용”</strong> 으로 변경 합니다
-                        </p>
-                        <div class="info_img">
-                          <img src="images/sb/05.png" alt="07" />
-                        </div>
-
-                        <!-- e -->
                       </div>
                     </div>
                   </div>
                   <!-- s:panel -->
                 </div>
                 <!-- e:tab -->
-              </div>
-            </div>
-            <!-- s:아이폰 -->
-            <div class="tab-item">
-              <div class="cont_body">
-                <p class="info_t1">Pushl알림 받기 설정 안내</p>
-                <p class="info_t2">
-                  1. 아이폰의 <strong>“설정”</strong>을 선택합니다.
-                </p>
-
-                <div class="info_img">
-                  <img src="images/ios/01.png" alt="02" />
-                </div>
-
-                <p class="info_t2">
-                  2. 설정 에서 <strong>“알림”</strong> 선택 합니다.
-                </p>
-                <div class="info_img">
-                  <img src="images/ios/02.png" alt="03" />
-                </div>
-
-                <p class="info_t2">
-                  3. 앱 목록에서 <strong>“KT링고”</strong>를 선택 합니다.
-                </p>
-                <div class="info_img">
-                  <img src="images/ios/03.png" alt="04" />
-                </div>
-
-                <p class="info_t2">
-                  4. KT링고 알림 허용이 차단이 되어 있으면
-                  <strong>“알림허용”</strong> 으로 변경합니다.
-                </p>
-                <div class="info_img">
-                  <img src="images/ios/04.png" alt="05" />
-                </div>
-              </div>
-            </div>
-
-            <!-- s:PC -->
-            <div class="tab-item">
-              <div class="cont_body">
-                <p class="info_t1">크롬 Pushl알림 받기 설정 안내</p>
-                <p class="info_t2">
-                  1. 브라우저 <strong>“크롬”</strong>을 실행합니다.
-                </p>
-                <p class="info_t2">
-                  2. 로그인 후 크롬 브라우저 우측 상단의
-                  <strong>더보기(⋮)</strong> 버튼을 선택하고 “설정”을
-                  선택합니다.
-                </p>
-                <div class="info_img">
-                  <img src="images/pc/00.png" alt="02" />
-                </div>
-
-                <p class="info_t2">
-                  3. 설정 화면 상단 좌측 <strong>“햄버거 메뉴”</strong>를
-                  선택합니다.
-                </p>
-                <div class="info_img">
-                  <img src="images/pc/01.png" alt="03" />
-                </div>
-
-                <p class="info_t2">
-                  4. <strong>“보안 및 개인정보 보호”</strong> 선택 합니다.
-                </p>
-                <div class="info_img">
-                  <img src="images/pc/02.png" alt="04" />
-                </div>
-
-                <p class="info_t2">
-                  5. 개인정보보호 및 보안에서 <strong>“사이트설정”</strong> 선택
-                  합니다.
-                </p>
-                <div class="info_img">
-                  <img src="images/pc/03.png" alt="05" />
-                </div>
-
-                <p class="info_t2">
-                  6. 권한에서 <strong>“알림설정”</strong> 선택 합니다.
-                </p>
-                <div class="info_img">
-                  <img src="images/pc/04.png" alt="06" />
-                </div>
-
-                <p class="info_t2">
-                  7. 기본 동작에서
-                  <strong>“사이트에서 알림 전송 허용을 요청할 수 있음”</strong>
-                  선택 하면 Push알림을 받을 수 있습니다.
-                </p>
-                <div class="info_img">
-                  <img src="images/pc/05.png" alt="07" />
-                </div>
-
-                <p class="info_t2">
-                  8. 사이트별 알림 설정은 하단 맞춤 설정된 동작에서 주가 버튼을
-                  선택하여 <strong>*.ringo.co.kr </strong>URL입력합니다.
-                </p>
-                <div class="info_img">
-                  <img src="images/pc/06.png" alt="08" />
-                </div>
-
-                <p class="info_t2">
-                  9. 추가한 <strong>*.ringo.co.kr</strong> URL 확인 됩니다.
-                </p>
-                <div class="info_img">
-                  <img src="images/pc/07.png" alt="08" />
-                </div>
               </div>
             </div>
           </div>
@@ -692,40 +523,11 @@
     </div>
     <!-- e: 약관 변경 안내 full popup -->
 
-    <!-- s: 아이폰 사파리 브라우저 레이어팝업 230904 추가 -->
-    <div id="popuseiphone" class="modal">
-      <a href="" class="close-modal">close</a>
-
-      <div class="modal_body">
-        <div class="text_only tac">
-          <p class="mb10">
-            <strong
-              >편리한 링고 서비스 이용을 위해
-              <br />
-              홈화면에 바로가기를 만드세요.
-            </strong>
-          </p>
-          <p>
-            한번의 탭으로 빠른 링고 연결이 가능하여
-            <br />
-            알림 등 기능과 사용 편리성을 높일 수 있습니다.
-          </p>
-        </div>
-      </div>
-      <div class="modal_footer">
-        <div class="btn_row">
-          <button type="button" class="btn_round">
-            홈화면 바로가기 설정 안내
-          </button>
-        </div>
-      </div>
-    </div>
-    <!-- e: 아이폰 사파리 브라우저 레이어팝업 230904 추가 -->
-
     <script>
-      // $("#popplay").modal({
-      // 	fadeDuration: 0,
-      // });
-    </script>
+			// 메뉴창, 단촉도구창 표시안함
+			function windowclose() {
+				window.close();
+      }
+		</script>
   </body>
 </html>

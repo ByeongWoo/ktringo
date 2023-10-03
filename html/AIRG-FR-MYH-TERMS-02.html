@@ -1,0 +1,1311 @@
+<!DOCTYPE html>
+<html lang="kr" class="ovh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta
+      name="viewport"
+      content="user-scalable=no, width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1.0, viewport-fit=cover"
+    />
+    <!-- <link href=".ico" rel="shortcut icon" /> -->
+    <!-- <link rel="apple-touch-icon-precomposed" href=".png" /> -->
+    <meta name="format-detection" content="telephone=no" />
+    <title>AI 링고</title>
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+
+    <script type="text/javascript" src="js/design.js"></script>
+    <script type="text/javascript" src="js/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/contents.css" />
+  </head>
+  <body>
+    <!-- s:header -->
+    <div class="header_wrap">
+      <div class="header_wrap-title">
+        <h1><img src="images/logo.svg" alt="kt링고" /></h1>
+        <div class="line">
+          <div class="num">02-3322-1239</div>
+          <button class="btn_down btnToggle" data-panelid="panel1">
+            <span class="blind">열기</span>
+          </button>
+          <!-- s:dropmenu -->
+          <div class="menu_box" id="panel1">
+            <ul>
+              <li><a href="javascript:;">02-3322-1239</a></li>
+              <li><a href="javascript:;">02-3322-1239</a></li>
+              <li><a href="javascript:;">02-3322-1239</a></li>
+              <li><a href="javascript:;">02-3322-1239</a></li>
+              <li><a href="javascript:;">02-3322-1239</a></li>
+              <li><a href="javascript:;">02-3322-1239</a></li>
+              <li><a href="javascript:;">02-3322-1239</a></li>
+            </ul>
+          </div>
+          <!-- e:dropmenu -->
+        </div>
+        <!-- s:navi -->
+        <div class="navigator">
+          <ul>
+            <li>
+              <a href="AIRG-FR-AIT-001.html" class="active">
+                <i class="icon_aitalk"></i>
+                <p class="txt">AI 톡</p>
+              </a>
+            </li>
+            <li>
+              <a href="AIRG-FR-GRT-001.html">
+                <i class="icon_setting"></i>
+                <p class="txt">인사말 설정</p>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:;">
+                <i class="icon_create"></i>
+                <p class="txt">인사말 제작</p>
+              </a>
+            </li>
+
+            <li>
+              <a href="AIRG-FR-MYH-001.html">
+                <i class="icon_mypage"></i>
+                <p class="txt">마이페이지</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- e:navi -->
+        <div class="alarm_wrap layerBtn" layer="layer_alarm">
+          <i class="ic"></i>
+          <div class="has_icon"></div>
+        </div>
+      </div>
+    </div>
+    <!-- e:header -->
+
+    <div class="cont_wrap">
+      <!-- s:2dep title -->
+      <div class="title_wrap">
+        <h2 class="h2_title">AI 톡</h2>
+      </div>
+      <!-- e:2dep title -->
+
+      <!-- s:tab -->
+      <div class="common-tab">
+        <!-- s:menu -->
+        <div class="tab_width">
+          <ul class="tab_wrap tab-btn">
+            <li class="selectd">
+              <span class="tit">통화기록</span>
+            </li>
+            <li>
+              <span class="tit">AI메모</span>
+            </li>
+          </ul>
+        </div>
+        <!-- e:menu -->
+
+        <!-- s:panel -->
+        <div class="tab-panel">
+          <!-- s:통화기록 -->
+          <div class="tab-item selectd">
+            <div class="cont_body">
+              <!-- s:list_box  -->
+              <div class="date_title">2023년 6월 28일</div>
+              <div class="ai_box">
+                <ul>
+                  <li>
+                    <i class="icon_receive">수신</i>
+                    <div class="t_rwap">
+                      <p class="phone">010-1234-1234</p>
+                      <p class="time">오후 2시 30분</p>
+                    </div>
+                    <div class="btns">
+                      <a href="javascript:;" class="btn_call">call</a>
+                      <a
+                        href="javascript:;"
+                        class="btn_mag layerBtn"
+                        layer="layer_aitdetail"
+                        >상세</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <i class="icon_miss">부재</i>
+                    <div class="t_rwap">
+                      <p class="phone">010-1234-1234</p>
+                      <p class="time">오후 2시 30분</p>
+                    </div>
+                    <div class="btns">
+                      <a href="javascript:;" class="btn_call">call</a>
+                      <a
+                        href="javascript:;"
+                        class="btn_mag layerBtn"
+                        layer="layer_aitdetail"
+                        >상세</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <i class="icon_send">발신</i>
+                    <div class="t_rwap">
+                      <p class="phone">010-1234-1234</p>
+                      <p class="time">오후 2시 30분</p>
+                    </div>
+                    <div class="btns">
+                      <a href="javascript:;" class="btn_call">call</a>
+                      <a
+                        href="javascript:;"
+                        class="btn_mag layerBtn"
+                        layer="layer_aitdetail"
+                        >상세</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <i class="icon_pull">당겨받기</i>
+                    <div class="t_rwap">
+                      <p class="phone">010-1234-1234</p>
+                      <p class="time">오후 2시 30분</p>
+                    </div>
+                    <div class="btns">
+                      <a href="javascript:;" class="btn_call">call</a>
+                      <a
+                        href="javascript:;"
+                        class="btn_mag layerBtn"
+                        layer="layer_aitdetail"
+                        >상세</a
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <!-- e:list_box  -->
+
+              <!-- s:list_box  -->
+              <div class="date_title">2023년 6월 28일</div>
+              <div class="ai_box">
+                <ul>
+                  <li>
+                    <i class="icon_receive">수신</i>
+                    <div class="t_rwap">
+                      <p class="phone">010-1234-1234</p>
+                      <p class="time">오후 2시 30분</p>
+                    </div>
+                    <div class="btns">
+                      <a href="javascript:;" class="btn_call">call</a>
+                      <a
+                        href="javascript:;"
+                        class="btn_mag layerBtn"
+                        layer="layer_aitdetail"
+                        >상세</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <i class="icon_miss">부재</i>
+                    <div class="t_rwap">
+                      <p class="phone">010-1234-1234</p>
+                      <p class="time">오후 2시 30분</p>
+                    </div>
+                    <div class="btns">
+                      <a href="javascript:;" class="btn_call">call</a>
+                      <a
+                        href="javascript:;"
+                        class="btn_mag layerBtn"
+                        layer="layer_aitdetail"
+                        >상세</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <i class="icon_send">발신</i>
+                    <div class="t_rwap">
+                      <p class="phone">010-1234-1234</p>
+                      <p class="time">오후 2시 30분</p>
+                    </div>
+                    <div class="btns">
+                      <a href="javascript:;" class="btn_call">call</a>
+                      <a
+                        href="javascript:;"
+                        class="btn_mag layerBtn"
+                        layer="layer_aitdetail"
+                        >상세</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <i class="icon_pull">당겨받기</i>
+                    <div class="t_rwap">
+                      <p class="phone">010-1234-1234</p>
+                      <p class="time">오후 2시 30분</p>
+                    </div>
+                    <div class="btns">
+                      <a href="javascript:;" class="btn_call">call</a>
+                      <a
+                        href="javascript:;"
+                        class="btn_mag layerBtn"
+                        layer="layer_aitdetail"
+                        >상세</a
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <!-- e:list_box  -->
+
+              <!-- s:list_box  -->
+              <div class="date_title">2023년 6월 28일</div>
+              <div class="ai_box">
+                <ul>
+                  <li>
+                    <i class="icon_receive">수신</i>
+                    <div class="t_rwap">
+                      <p class="phone">010-1234-1234</p>
+                      <p class="time">오후 2시 30분</p>
+                    </div>
+                    <div class="btns">
+                      <a href="javascript:;" class="btn_call">call</a>
+                      <a
+                        href="javascript:;"
+                        class="btn_mag layerBtn"
+                        layer="layer_aitdetail"
+                        >상세</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <i class="icon_miss">부재</i>
+                    <div class="t_rwap">
+                      <p class="phone">010-1234-1234</p>
+                      <p class="time">오후 2시 30분</p>
+                    </div>
+                    <div class="btns">
+                      <a href="javascript:;" class="btn_call">call</a>
+                      <a
+                        href="javascript:;"
+                        class="btn_mag layerBtn"
+                        layer="layer_aitdetail"
+                        >상세</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <i class="icon_send">발신</i>
+                    <div class="t_rwap">
+                      <p class="phone">010-1234-1234</p>
+                      <p class="time">오후 2시 30분</p>
+                    </div>
+                    <div class="btns">
+                      <a href="javascript:;" class="btn_call">call</a>
+                      <a
+                        href="javascript:;"
+                        class="btn_mag layerBtn"
+                        layer="layer_aitdetail"
+                        >상세</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <i class="icon_pull">당겨받기</i>
+                    <div class="t_rwap">
+                      <p class="phone">010-1234-1234</p>
+                      <p class="time">오후 2시 30분</p>
+                    </div>
+                    <div class="btns">
+                      <a href="javascript:;" class="btn_call">call</a>
+                      <a
+                        href="javascript:;"
+                        class="btn_mag layerBtn"
+                        layer="layer_aitdetail"
+                        >상세</a
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <!-- e:list_box  -->
+
+              <div class="infotitle_wrap">
+                <div class="no_r">최근 통화 기록이 없습니다.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- s:AI메모 -->
+          <div class="tab-item">
+            <div class="cont_body">
+              <!-- s -->
+              <div class="aiinfo_box">
+                <p class="t1">
+                  02-3289-1234로 남겨주신 고객님께 남긴 소중한 메시지를 AI가
+                  보여드립니다. ( 30일 까지 조회 가능)
+                </p>
+              </div>
+              <!-- e -->
+
+              <div class="top_select">
+                <label class="custom-select">
+                  <select name="" id="" class="noline">
+                    <option value="">전체</option>
+                    <option value="">읽은메모</option>
+                    <option value="">안읽은메모</option>
+                  </select>
+                </label>
+              </div>
+
+              <!-- s: -->
+              <div class="ai_box memo layerBtn" layer="layer_aitdetail">
+                <div class="bu_new"></div>
+                <div class="top_info">
+                  <div class="phone">010-1234-1234</div>
+                  <div class="time">2023년 6월 28일</div>
+                </div>
+                <div class="msg_wrap">
+                  여보세요 안녕하세요 혹시 30일 수요일에 예약이 가능할까요? 혹시
+                  30 내일 모레 4명 방문 예정입니다.
+                </div>
+              </div>
+              <!-- e:  -->
+
+              <!-- s: -->
+              <div class="ai_box memo layerBtn" layer="layer_aitdetail">
+                <div class="bu_new"></div>
+                <div class="top_info">
+                  <div class="phone">010-1234-1234</div>
+                  <div class="time">2023년 6월 28일</div>
+                </div>
+                <div class="msg_wrap">오늘 휴무이신가요?</div>
+              </div>
+              <!-- e:  -->
+
+              <!-- s: -->
+              <div class="ai_box memo layerBtn" layer="layer_aitdetail">
+                <div class="top_info">
+                  <div class="phone">010-1234-1234</div>
+                  <div class="time">2023년 6월 28일</div>
+                </div>
+                <div class="msg_wrap">오늘 휴무이신가요?</div>
+              </div>
+              <!-- e:  -->
+
+              <div class="infotitle_wrap">
+                <div class="no_r">최근 받은 메모가 없습니다.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- s:panel -->
+      </div>
+      <!-- e:tab -->
+    </div>
+    <!-- s:개인정보방침 -->
+    <div class="footer"><a href="javascript:;">개인정보처리방침</a></div>
+    <!-- e:개인정보방침 -->
+
+    <!-- s: 약관 변경 안내 full popup -->
+    <div class="full_page layerPopUp show" layer="">
+      <div class="full_page-header">
+        <div class="title">개인정보 처리 방침</div>
+        <button class="btn_popclose" onclick="windowclose();">
+          <span>닫기</span>
+        </button>
+      </div>
+      <div class="full_page-cont">
+        <!-- s:tab -->
+        <div class="common-tab">
+          <!-- s:panel -->
+          <div class="tab-panel mobile_full">
+            <!-- s:메인 -->
+            <div class="tab-item selectd">
+              <div class="cont_body">
+                <!-- s:tab -->
+                <div class="inner-tab">
+                  <!-- s:panel -->
+                  <div class="tab-panel2">
+                    <!-- s:안드로이드폰 -->
+                    <div class="tab-item selectd">
+                      <div class="cont_body">
+                        <p class="info_t1"></p>
+                        <p class="info_t2">
+                          <strong>제 1조 총칙</strong>
+                        </p>
+                        <p class="info_t3">
+                          1. “개인정보"란 생존하고 있는 개인에 관한 정보로서
+                          성명, 생년월일 및 성별 등에 의하여 당해 개인을 알아볼
+                          수 있는 정보(당해 정보만으로는 특정 개인을 알아볼 수
+                          없는 경우에도 다른 정보와 용이하게 결합하여 알아볼 수
+                          있는 것을 포함)를 말합니다.
+                        </p>
+
+                        <p class="info_t3">
+                          2. AI링고 서비스(이하 “AI링고”라 함)는 고객님의
+                          개인정보를 중요시하며, 『개인정보 보호법』과 개인정보
+                          보호 관련 각종 법규를 준수하고 있습니다.
+                        </p>
+                        <p class="info_t3">
+                          3. AI링고는 개인정보 처리방침을 통하여 고객님의
+                          개인정보가 어떤 용도와 방식으로 이용되고 있으며,
+                          개인정보보호를 위해 어떠한 조치가 취해지고 있는지
+                          알려드립니다.
+                        </p>
+                        <p class="info_t3">
+                          4. AI링고의 개인정보처리방침은 관련 법령 및 내부 운영
+                          방침의 변경에 따라 개정될 수 있습니다.
+                          개인정보처리방침이 개정되는 경우에는 시행일자 등을
+                          부여하여 개정된 내용을 AI링고 웹 페이지에 지체 없이
+                          공지합니다.
+                        </p>
+                        <p class="info_t3">
+                          5. 영업의 전부 또는 일부를 양도하거나 합병 등으로
+                          개인정보를 이전하는 경우 서면, 전자우편 등을 통하여
+                          고객님께 개별적으로 통지하고, AI링고의 과실 없이
+                          고객님의 연락처를 알 수 없는 경우에 해당하여 서면,
+                          전자우편 등으로 통지할 수 없는 경우에는, 서비스 웹
+                          공지사항 및 케이티닷컴 홈페이지 첫 화면에서 식별할 수
+                          있도록 표기하여 30일 이상 그 사실을 공지합니다. 단,
+                          천재지변 등 정당한 사유로 홈페이지 게시가 곤란한
+                          경우에는 2곳 이상의 중앙일간지(고객님의 대부분이 특정
+                          지역에 거주하는 경우에는 그 지역을 보급구역으로 하는
+                          일간지로 할 수 있습니다.)에 1회 이상 공고하는 것으로
+                          갈음합니다.
+                        </p>
+
+                        <p class="info_t2">
+                          <strong
+                            >제 2조 개인정보의 수집 항목 및 수집/이용
+                            목적</strong
+                          >
+                        </p>
+                        <p class="info_t3">
+                          1. AI링고는 회원가입, 상담, 서비스 제공 등을 위하여
+                          필요한 범위에서 최소한의 개인정보만을 수집합니다
+                        </p>
+                        <p class="info_t3">
+                          2. AI링고는 제8조(개인정보 처리의 수탁)에 따라
+                          고객님의 개인정보처리 수탁자로서 관련법 및 규정을
+                          준수하여 해당 개인정보를 관리하고 보호하며, 고객님의
+                          처리위탁에서 정한 목적을 벗어나서 개인정보를 처리할 수
+                          없습니다.
+                        </p>
+                        <p class="info_t3">
+                          3. AI링고는 서비스의 본질적인 기능 제공을 위한
+                          필수동의와 고객 각각의 기호와 필요에 맞는 서비스를
+                          제공하기 위한 선택동의로 구분하여 다음의 정보를
+                          수집/이용하고 있습니다. 선택동의를 하지 않은 경우에도
+                          서비스 이용 제한은 없습니다.
+                        </p>
+                        <p class="info_t3">
+                          4. 사상, 신념, 가족 및 친인척관계, 학력, 병력, 기타
+                          사회활동 경력 등 고객님의 권리/이익이나 사생활을
+                          뚜렷하게 침해할 우려가 있는 개인정보는 수집하지
+                          않습니다. 다만, 고객님께서 수집에 동의하시거나 다른
+                          법률에 따라 특별히 수집 대상 개인정보로 허용된
+                          경우에는 필요한 범위에서 최소한으로 위 개인정보를
+                          수집할 수 있습니다.
+                        </p>
+                        <p class="info_t3">
+                          5. AI링고가 수집하는 개인정보 항목과 수집/이용하는
+                          목적은 다음과 같습니다.
+                        </p>
+                        <p class="info_t3">가. 필수 수집/이용 목적 및 항목</p>
+                        <table class="table_type1">
+                          <colgroup>
+                            <col style="width: 45%" />
+                            <col style="width: 55%" />
+                          </colgroup>
+                          <thead>
+                            <tr>
+                              <th>수집/이용 목적</th>
+                              <th>개인정보 항목(필수동의 항목)</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr class="">
+                              <td>
+                                <ul>
+                                  <li>• AI 전화응대 서비스 제공</li>
+                                  <li>• 고객불만, 민원처리</li>
+                                  <li>• 서비스 품질향상</li>
+                                  <li>• 전화, 문자, 웹푸시 고지사항 전달</li>
+                                </ul>
+                              </td>
+                              <td>
+                                매장유선전화번호, 아이디, 패스워드, 휴대폰번호,
+                                수신전화번호, 통화시각, 사용도수, 통화중의 발화
+                                음성언어 정보, 매장명, 모바일단말식별번호,
+                                접속로그, 쿠키, 접속IP정보 등
+                              </td>
+                            </tr>
+                            <tr class="">
+                              <td>
+                                <ul>
+                                  <li>• 서비스 가입/변경/해지 처리</li>
+                                  <li>• 본인확인/개인식별/부정방지 등</li>
+                                  <li>• 유료서비스 이용</li>
+                                  <li>• 청구 및 결제 확인</li>
+                                </ul>
+                              </td>
+                              <td>
+                                매장유선전화번호, 가입자명, 생년월일, 주소,
+                                이메일, 결제기록, 납부정보, 신분증기재사항,
+                                정지/해지사유, 이용정지기록, 서비스이용기록,
+                                휴대폰번호 등
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <p class="info_t3">나. 선택 수집/이용 목적 및 항목</p>
+                        <table class="table_type1">
+                          <colgroup>
+                            <col style="width: 45%" />
+                            <col style="width: 55%" />
+                          </colgroup>
+                          <thead>
+                            <tr>
+                              <th>수집/이용 목적</th>
+                              <th>개인정보 항목(필수동의 항목)</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr class="">
+                              <td>
+                                <ul>
+                                  <li>
+                                    • AI링고가 제공하는 모든 서비스와
+                                    제휴.결합된 상품 안내, 할인제도 의 소개 및
+                                    가입의사 확인, 리텐션, 고객혜택 이벤트 안내
+                                    등의 마케팅 활용 및 고객관리
+                                  </li>
+                                  <li>
+                                    • AI링고가 수집 보유하는 신청인의 개인정보
+                                    및 이용형태/선호도
+                                  </li>
+                                </ul>
+                              </td>
+                              <td>
+                                서비스 이용시 필수 동의사항에서 개인정보
+                                수집·이용에 동의한 모든 항목
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <p class="info_t3">
+                          ※ 위 정보는 가입 당시 정보 뿐만 아니라 정보 수정으로
+                          변경된 정보를 포함합니다.
+                        </p>
+                        <p class="info_t3">
+                          6. AI링고는 고객님으로부터 개인정보 수집/이용 동의를
+                          받은 범위 내에서 단말기 정보 등에 접근하고 있습니다.
+                        </p>
+                        <p class="info_t3">
+                          가. 수집/이용하고 있는 단말기 정보(웹 권한)는 웹
+                          페이지에 팝업창을 통해 고지하고 있으며 고객님이
+                          개인정보 수집/이용에 동의하신 범위 내에서 단말기 정보
+                          등에 접근 및 정보를 수집합니다.
+                        </p>
+                        <p class="info_t3">
+                          나. 고객님이 접근 권한을 허용하였다고 하여 단말기
+                          등으로부터 허용된 권한 관련 모든 정보가 즉시
+                          수집(전송) 되는 것은 아닙니다.
+                        </p>
+                        <p class="info_t3">
+                          다. 단말기 정보(웹 권한) 허용 범위는 단말기의 ‘설정’
+                          메뉴를 통해 변경할 수 있습니다.(단말기 사용 설명서 등
+                          참조)
+                        </p>
+                        <p class="info_t3">
+                          7. AI링고는 아래의 경우에 한하여 고객님의 동의 없이
+                          고객님의 개인정보를 수집/이용할 수 있습니다.
+                        </p>
+                        <p class="info_t3">
+                          가. 고객님과의 계약을 이행하기 위하여 필요한
+                          개인정보로서 경제적/기술적인 사유로 통상적인 동의를
+                          받는 것이 뚜렷하게 곤란한 경우
+                        </p>
+                        <p class="info_t3">
+                          나. 서비스의 제공에 따른 요금정산을 위하여 필요한 경우
+                        </p>
+                        <p class="info_t3">
+                          다. 관련 법령에 특별한 규정이 있는 경우
+                        </p>
+                        <p class="info_t3">
+                          8. AI링고 이용 과정에서 수집되는 음성 정보의 경우에는
+                          음성인식에 기반한 서비스에서 음성명령을 더욱 정확하게
+                          인식하여 보다 향상된 기능을 제공하기 위한 목적으로만
+                          사용되며, 6개월 동안 암호화되어 서버에 저장되고 이후
+                          삭제됩니다.
+                        </p>
+                        <p class="info_t3">
+                          9. AI링고는 수집한 개인정보를 개인을 알아볼 수 없는
+                          통계자료 등으로 가공하여 이용 또는 제공할 수 있습니다.
+                        </p>
+                        <p class="info_t3">
+                          10. AI링고 제공을 위해 가입고객과 고객의 통화를
+                          처리함에 있어 그 내용을 분석하여 전달하는 행위는
+                          가입고객으로부터 수탁받아 처리합니다.
+                        </p>
+
+                        <p class="info_t2">
+                          <strong>제 3조 개인정보의 수집방법</strong>
+                        </p>
+                        <p class="info_t3">
+                          AI링고는 다음과 같은 방법으로 개인정보를 수집합니다.
+                        </p>
+                        <p class="info_t3">
+                          가. 가입신청서, 명의변경신청서 등 각종 서면 작성,
+                          홈페이지/전화/팩스/웹 페이지 등을 통한 회원/서비스
+                          가입, 전화나 인터넷을 통한 상담, 경품 행사 응모, 배송
+                          요청 등의 과정에서 수집
+                        </p>
+                        <p class="info_t3">
+                          나. 서비스 이용 또는 업무 처리 과정에서 생성되거나
+                          제휴사 등 제 3자로부터의 제공, 생성정보 수집 툴을 통한
+                          수집 등
+                        </p>
+
+                        <p class="info_t2">
+                          <strong>제 4조 개인정보 수집에 대한 동의</strong>
+                        </p>
+                        <p class="info_t3">
+                          1. AI링고는 고객님의 개인정보 수집 및 이용에 대한
+                          별도의 동의획득 절차를 두고, 고객님께서 이에 대해
+                          '동의한다' 또는 '동의하지 않는다' 버튼을 클릭할 수
+                          있는 절차를 마련하고 있습니다. '동의한다' 버튼을
+                          클릭하면 개인정보 수집 및 이용에 대해 동의한 것으로
+                          봅니다.
+                        </p>
+                        <p class="info_t3">
+                          2. 고객님은 개인정보 수집 및 이용에 대한 동의를 거부할
+                          권리가 있으며, 동의를 거부할 경우 받는 별도의 불이익은
+                          없습니다. 단, 필수동의 사항에 동의를 거부할 경우
+                          서비스 이용이 불가능하거나, 서비스 이용 목적에 따른
+                          서비스 제공에 제한이 따르게 됩니다.
+                        </p>
+
+                        <p class="info_t2">
+                          <strong>제 5조 개인정보의 보유 및 이용기간</strong>
+                        </p>
+                        <p class="info_t3">
+                          1. AI링고는 고객님의 개인정보를 고객님께 서비스를
+                          제공하는 기간 또는 분쟁처리 기간 동안에 한하여
+                          보유하고 이를 이용합니다.
+                        </p>
+                        <p class="info_t3">
+                          가. 서비스 가입기간(가입일~해지일)
+                        </p>
+                        <p class="info_t3">
+                          나. 요금정산, 요금 과오납 등 분쟁 대비를 위해 해지
+                          또는 요금완납 후 6개월까지
+                        </p>
+                        <p class="info_t3">
+                          다. 요금 관련 분쟁 등 서비스 이용과 관련된 민원/분쟁이
+                          계속될 경우에는 민원/분쟁 해결 시까지 보유(단, 관계
+                          법령에 특별한 규정이 있을 경우 관련 법령에 따라 보관)
+                        </p>
+                        <p class="info_t3">
+                          2. 상법, 국세기본법, 통신비밀보호법, 전자상거래
+                          등에서의 소비자보호에 관한 법률, 신용정보의 이용 및
+                          보호에 관한 법률 등 관계법령에 따라 보존할 필요가 있는
+                          경우 AI링고는 관계법령에서 정한 기간 동안 고객의
+                          개인정보를 보유하며, 그 기간은 다음과 같습니다.
+                        </p>
+
+                        <table class="table_type1">
+                          <colgroup>
+                            <col style="width: 15%" />
+                            <col style="width: 70%" />
+                            <col style="width: 15%" />
+                          </colgroup>
+                          <thead>
+                            <tr>
+                              <th>보존 근거</th>
+                              <th>보존 대상</th>
+                              <th>보존 기간</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr class="">
+                              <td rowspan="2">상법</td>
+                              <td>
+                                상업장부와 영업에 관한 중요서류에 포함된
+                                개인정보
+                              </td>
+                              <td>10년</td>
+                            </tr>
+                            <tr class="">
+                              <td>
+                                전표 또는 이와 유사한 서류에 포함된 개인정보
+                              </td>
+                              <td>5년</td>
+                            </tr>
+                            <tr class="">
+                              <td>국세기본법</td>
+                              <td>
+                                성명, 주민번호, 전화번호, 청구지 주소,
+                                요금납부내역 등 거래에 관한 장부 및 증거서류
+                              </td>
+                              <td>5년</td>
+                            </tr>
+                            <tr class="">
+                              <td>통신비밀보호법</td>
+                              <td>
+                                컴퓨터통신 또는 인터넷의 로그기록자료,
+                                정보통신기기의 위치를 확인할 수 있는 접속지의
+                                추적자료
+                              </td>
+                              <td>3개월</td>
+                            </tr>
+                            <tr class="">
+                              <td rowspan="3">전자상거래 등에서의</td>
+                              <td>계약 또는 청약철회 등에 관한 기록</td>
+                              <td>5년</td>
+                            </tr>
+                            <tr class="">
+                              <td>대금결제 및 재화 등의 공급에 관한 기록</td>
+                              <td>5년</td>
+                            </tr>
+                            <tr class="">
+                              <td>소비자의 불만 또는 분쟁처리에 관한 기록</td>
+                              <td>5년</td>
+                            </tr>
+                            <tr class="">
+                              <td>소비자보호에 관한 법률</td>
+                              <td>표시/광고에 관한 기록</td>
+                              <td>6개월</td>
+                            </tr>
+                            <tr class="">
+                              <td>신용정보의 이용 및 보호에 관한 법률</td>
+                              <td>
+                                신용정보의 수집/처리 및 이용 등에 관한 기록
+                              </td>
+                              <td>3년</td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <p class="info_t2">
+                          <strong>제 6조 개인정보의 파기절차 및 방법</strong>
+                        </p>
+                        <p class="info_t3">
+                          AI링고는 원칙적으로 개인정보 수집 및 이용목적이 달성된
+                          후에는 해당 정보를 지체없이 파기합니다. 파기절차 및
+                          방법은 다음과 같습니다.
+                        </p>
+                        <p class="info_t3">1. 파기절차</p>
+                        <p class="info_t3">
+                          가. 고객님의 개인정보는 수집 및 이용목적이 달성된 후
+                          별도의 DB로 옮겨져(종이의 경우 별도의 서류함) 내부
+                          방침 및 기타 관련 법령에 의한 정보보호 사유(보유 및
+                          이용기간 참조)에 따라 일정 기간 저장된 후 파기됩니다.
+                        </p>
+                        <p class="info_t3">
+                          나. 별도 DB로 옮겨진 개인정보는 법률에 의한 경우와
+                          분쟁해결 등 부득이 필요한 경우 이외의 다른 목적으로
+                          이용되지 않습니다.
+                        </p>
+                        <p class="info_t3">2. 파기방법</p>
+                        <p class="info_t3">
+                          가. 종이(서면)에 작성, 출력된 개인정보 : 분쇄하거나
+                          소각 등의 방법으로 파기
+                        </p>
+                        <p class="info_t3">
+                          나. DB 등 전자적 파일 형태로 저장된 개인정보 : 재생할
+                          수 없는 기술적 방법으로 삭제
+                        </p>
+
+                        <p class="info_t2">
+                          <strong>제 7조 수집한 개인정보의 공유 및 제공</strong>
+                        </p>
+                        <p class="info_t3">
+                          1. AI링고는 고객님의 개인정보를 서비스 이용약관 또는
+                          개인정보 처리방침에서 명시한 범위 내에서 이용하며,
+                          명시한 범위를 넘어서 제3자와 공유하거나 제공하지
+                          않습니다. 다만, 다음의 경우는 예외로 합니다.
+                        </p>
+                        <p class="info_t3">
+                          가. 고객님의 동의가 있거나 요금정산을 위해 필요한 경우
+                        </p>
+                        <p class="info_t3">
+                          나. 관련 법령(통신비밀보호법, 전기통신사업법,
+                          국세기본법 등)에 특별한 규정이 있는 경우로서, 법령에
+                          정해진 규정과 절차에 따라 제공하는 경우
+                        </p>
+
+                        <p class="info_t2">
+                          <strong>제 8조 개인정보 처리의 수탁</strong>
+                        </p>
+                        <p class="info_t3">
+                          1. AI링고는 고객님이 서비스를 이용하여 제3자의
+                          개인정보를 처리하는 경우, 고객님과 개인정보처리 업무
+                          위탁에 관한 계약을 AI링고가 제공하는 “위/수탁계약서”
+                          또는 “개인정보처리위탁에 대한 동의서” 등을 통하여
+                          서면으로 체결합니다.
+                        </p>
+                        <p class="info_t3">
+                          2. AI링고는 개인정보를 제공하는 제3자로부터 개인정보의
+                          수집 및 이용에 대한 동의 및 본 조 제3항의 AI링고와
+                          개인정보처리의 위/수탁에 관한 내용에 대한 공개 등의
+                          절차를 거쳐야 합니다.
+                        </p>
+                        <p class="info_t3">
+                          3. AI링고는 고객님과 체결한 “위/수탁계약서” 또는
+                          “개인정보위탁에 대한 동의서” 등을 통하여 관련 법규 및
+                          지침의 준수, 정보보호 및 비밀유지, 제3자 제공 금지,
+                          사고 시 책임부담, 기간 종료 즉시 개인정보의 반납/파기
+                          의무 등을 규정하여 관리하고 있습니다.
+                        </p>
+                        <p class="info_t3">개인정보 처리업무</p>
+
+                        <table class="table_type1">
+                          <colgroup>
+                            <col style="width: 20%" />
+                            <col style="width: 60%" />
+                          </colgroup>
+                          <thead>
+                            <tr>
+                              <th>서비스명</th>
+                              <th>수탁 업무 내용</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr class="">
+                              <td>AI링고</td>
+                              <td>
+                                <ul>
+                                  <li>
+                                    • 공통 : 음성정보의 수집, 저장, 가공, 관리
+                                    업무
+                                  </li>
+                                  <li>• 상세기능별 정보</li>
+                                  <li>• 음성메모 : 발신인의 발화 정보</li>
+                                </ul>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <p class="info_t3">
+                          ※ 수탁 업무내용은 고객님이 희망하는 서비스 시나리오에
+                          따라 변경될 수 있습니다.
+                        </p>
+
+                        <p class="info_t2">
+                          <strong>제 9조 개인정보 처리의 위탁</strong>
+                        </p>
+                        <p class="info_t3">
+                          1. AI링고는 서비스 제공에 관한 계약을 이행하고
+                          고객님의 편의 증진 등을 위하여 개인정보 처리업무를
+                          외부 전문업체에게 위탁하고 있으며, 수탁자에 대해서는
+                          “위∙수탁계약서” 등을 통하여 관련 법규 및 지침의 준수,
+                          정보보호 및 비밀유지, 제3자 제공 금지, 사고 시
+                          책임부담, 위탁기간 종료 즉시 개인정보의 반납/파기 의무
+                          등 책임에 관한 사항을 규정하고, 수탁자가 개인정보를
+                          안전하게 처리하는지를 감독하고 있습니다.
+                        </p>
+                        <p class="info_t3">
+                          개인정보 처리업무 수탁자 및 위탁 업무 내용
+                        </p>
+
+                        <table class="table_type1">
+                          <colgroup>
+                            <col style="width: 20%" />
+                            <col style="width: 60%" />
+                          </colgroup>
+                          <thead>
+                            <tr>
+                              <th>수탁사</th>
+                              <th>위탁 업무 내용</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr class="">
+                              <td>KTCS</td>
+                              <td>
+                                <ul>
+                                  <li>
+                                    • 서비스의 가입 및 해지, 본인확인을 위한
+                                    정보 수집업무
+                                  </li>
+                                  <li>
+                                    • 고객불만 접수 처리 등 고객상담 및
+                                    응대(고객센터 업무)
+                                  </li>
+                                </ul>
+                              </td>
+                            </tr>
+                          </tbody>
+
+                          <tbody>
+                            <tr class="">
+                              <td>KTDS</td>
+                              <td>AI링고 서비스 운영 업무 및 장애 관리 지원</td>
+                            </tr>
+                          </tbody>
+
+                          <tbody>
+                            <tr class="">
+                              <td>
+                                파이브웍스, 시네틱스, 와이엔비미디어,
+                                와우커뮤니케이션
+                              </td>
+                              <td>서비스품질 및 음성정보처리 위한 운용업무</td>
+                            </tr>
+                          </tbody>
+
+                          <tbody>
+                            <tr class="">
+                              <td>피이그</td>
+                              <td>
+                                고객 혜택을 위한 마케팅 및 이벤트 대행 업무
+                              </td>
+                            </tr>
+                            <tr class="">
+                              <td>케이티알파㈜</td>
+                              <td>링고 컨텐츠 제작, 설정, VOC 등 운영</td>
+                            </tr>
+                            <tr class="">
+                              <td>㈜ 위즈커뮤니케이션</td>
+                              <td>통화연결음 서비스 운영 및 고객관리</td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <p class="info_t3">
+                          ※ 수탁자 리스트는 서비스 내용 변경 등의 사유에 따라
+                          변경될 수 있습니다.
+                        </p>
+
+                        <p class="info_t2">
+                          <strong>제 10조 이용자의 권리와 그 행사 방법</strong>
+                        </p>
+                        <p class="info_t3">
+                          1. 고객님께서는 언제든지 개인정보에 대한 열람이나
+                          제공을 요구하실 수 있고, 오류가 있는 경우에는 그
+                          정정을 요구하실 수 있으며, 개인정보의 수집/이용/제공에
+                          대한 동의를 철회하실 수 있습니다.
+                        </p>
+                        <p class="info_t3">
+                          2. 고객님의 개인정보 등에 대한 열람 및 정정을 위해서는
+                          고객님께서 회사를 직접 방문하시거나 고객센터로 전화
+                          문의 또는 웹 내 ‘정보수정’을 클릭하여 직접 열람 및
+                          정정(선택적 동의 철회 포함)을 하실 수 있습니다. 서비스
+                          해지(동의철회)를 위해서는 웹 내 ‘서비스 이용약관 철회’
+                          메뉴를 통하여 본인확인 절차를 거치신 후 탈퇴가
+                          가능합니다.
+                        </p>
+                        <p class="info_t3">
+                          3. 고객님의 대리인이 고객님의 개인정보 등에 대한
+                          열람이나 정정을 요구하거나 고객님의 개인정보의
+                          수집/이용/제공에 대한 동의를 철회하는 경우에는
+                          대리관계를 나타내는 위임장, 명의고객님의 인감증명서와
+                          대리인의 신분증명서 등의 증표를 제시받아 적법한
+                          대리인인지 여부를 확인합니다.
+                        </p>
+                        <p class="info_t3">
+                          4. 고객님께서는 개인정보 등의 열람이나 제공을 요청하실
+                          수 있으며, AI링고는 이러한 요청에 지체없이 필요한
+                          조치를 취합니다.
+                        </p>
+                        <p class="info_t3">
+                          5. 고객님께서 개인정보 등의 오류에 대한 정정을
+                          요청하신 경우에는 지체없이 그 오류를 정정하거나
+                          정정하지 못하는 사유를 고객님에게 알리는 등 필요한
+                          조치를 하고, 필요한 조치를 할때까지는 당해 개인정보를
+                          이용 또는 제공하지 않습니다. 또한 잘못된 개인정보를
+                          제3자에게 이미 제공한 경우에는 정정 처리결과를 제
+                          3자에게 지체없이 통지하여 정정이 이루어지도록
+                          하겠습니다. 다만, 다른 법률에 따라 개인정보의 제공을
+                          요청받은 경우에는 그 개인정보를 제공하거나 이용할 수
+                          있습니다.
+                        </p>
+                        <p class="info_t3">
+                          6. AI링고는 고객님의 요청에 의해 해지 또는 삭제된
+                          개인정보를 ‘개인정보의 보유 및 이용기간’에 명시된 바에
+                          따라 처리하고 그 외의 용도로 열람 또는 이용할 수
+                          없도록 처리하고 있습니다.
+                        </p>
+
+                        <p class="info_t2">
+                          <strong
+                            >제 11조 개인정보 자동 수집장치의 설치 운영 및 그
+                            거부에 관한 사항</strong
+                          >
+                        </p>
+                        <p class="info_t3">
+                          AI링고는 웹 페이지 운영에 있어 필요 시 고객님의 정보를
+                          찾아내고 저장하는 ‘쿠키(Cookie)’를 운용합니다. 쿠키는
+                          서비스의 웹사이트를 운영하는데 이용되는 서버가
+                          고객님의 브라우저에 보내는 아주 작은 텍스트 파일로서
+                          고객님의 컴퓨터 하드디스크에 저장됩니다. 고객님께서는
+                          웹브라우저의 보안 정책을 통해 쿠키에 의한 정보수집의
+                          허용 거부 여부를 결정하실 수 있습니다.
+                        </p>
+                        <p class="info_t3">
+                          1. 쿠키에 의해 수집되는 정보 및 이용 목적
+                        </p>
+                        <p class="info_t3">
+                          가. 수집 정보 : ID, 접속IP, 접속로그, 이용 컨텐츠 등
+                          서비스 이용정보
+                        </p>
+                        <p class="info_t3">나. 이용 목적</p>
+                        <p class="info_t3">
+                          • 고객님의 관심분야에 따라 차별화된 정보를 제공
+                        </p>
+                        <p class="info_t3">
+                          • 회원과 비회원의 접속 빈도나 방문시간 등을 분석하여
+                          이용자의 취향과 관심분야를 파악하여 타겟(Target)
+                          마케팅에 활용 및 서비스 개편 등의 척도로 활용
+                        </p>
+                        <p class="info_t3">
+                          2. 고객님은 쿠키 설치에 대한 선택권을 가지고 있습니다.
+                          따라서 웹브라우저에서 옵션을 설정함으로써 쿠키에 의한
+                          정보 수집 수준의 선택을 조정하실 수 있습니다.
+                        </p>
+                        <p class="info_t3">
+                          가. 웹브라우저의 [도구]메뉴에서 [인터넷옵션] ->
+                          [개인정보]에서 쿠키에 의한 정보 수집 수준을 정할 수
+                          있습니다.
+                        </p>
+                        <p class="info_t3">
+                          나. 위에 제시된 메뉴를 통해 쿠키가 저장될 때마다
+                          확인을 하거나, 아니면 모든 쿠키의 저장을 거부할 수도
+                          있습니다. 단, 고객님께서 쿠키 설치를 거부하였을 경우
+                          서비스 제공에 어려움이 있을 수 있습니다.
+                        </p>
+
+                        <p class="info_t2">
+                          <strong
+                            >제 12조 개인정보의 기술적, 관리적 보호</strong
+                          >
+                        </p>
+                        <p class="info_t3">
+                          1. AI링고는 고객님의 개인정보가 분실, 도난, 유출,
+                          위조/변조 또는 훼손되지 않도록 안정성 확보를 위하여
+                          다음과 같은 기술적/관리적 대책을 마련하고 있습니다.
+                        </p>
+                        <p class="info_t3">[기술적 보호대책]</p>
+                        <p class="info_t3">
+                          1. 고객님의 개인정보를 암호화하여 저장하며,
+                          정보통신망을 통해 고객님의 개인정보 및 인증정보를
+                          송/수신 하는 경우에는 안전한 보안서비스 구축 등의
+                          조치를 통해 암호화하여 보호하고 있습니다.
+                        </p>
+                        <p class="info_t3">
+                          2. 백신 소프트웨어를 이용하여 컴퓨터바이러스 등에 의한
+                          피해를 방지하기 위한 조치를 취하고 있습니다. 백신
+                          소프트웨어는 주기적으로 업데이트되며 갑작스런
+                          바이러스가 출현할 경우 백신이 나오는 즉시 이를 도입,
+                          적용함으로써 개인정보가 침해되는 것을 방지하고
+                          있습니다.
+                        </p>
+                        <p class="info_t3">
+                          3. 고객님의 개인정보에 대한 불법적인 접근을 차단하기
+                          위해, 외부로부터 접근이 통제된 구역에 시스템을
+                          설치하고, 침입을 차단하는 장치를 이용하고 있으며,
+                          아울러 침입탐지시스템을 설치하여 24시간 침입을
+                          감시하고 있습니다.
+                        </p>
+                        <p class="info_t3">[관리적 보호대책]</p>
+                        <p class="info_t3">
+                          1. AI링고는 고객님의 개인정보를 안전하게 처리하기 위한
+                          내부 관리계획을 마련하여 소속 직원이 이를 숙지하고
+                          준수하도록 하고 있습니다.
+                        </p>
+                        <p class="info_t3">
+                          2. AI링고는 고객님의 개인정보를 처리할 수 있는 자를
+                          최소한으로 제한하고 접근 권한을 관리하며, 새로운 보안
+                          기술 습득 및 개인정보보호 의무 등에 관해 정기적인 사내
+                          교육과 외부 위탁교육을 통하여 법규 및 정책을 준수할 수
+                          있도록 하고 있습니다. 고객님의 개인정보를 처리하는
+                          자는 다음과 같습니다.
+                        </p>
+                        <p class="info_t3">
+                          가. 고객님을 직/간접적으로 상대하여 마케팅 업무를
+                          수행하는 자
+                        </p>
+                        <p class="info_t3">
+                          나. 개인정보보호책임자 및 개인정보보호담당자 등
+                          개인정보 관리 및 개인정보보호 업무를 담당하는 자
+                        </p>
+                        <p class="info_t3">
+                          다. 기타 업무상 개인정보의 처리가 불가피한 자
+                        </p>
+                        <p class="info_t3">
+                          3. 전 임직원이 정보보호서약서에 서명하게 함으로써
+                          직원에 의한 정보(개인정보 포함) 유출을 사전에
+                          방지하고, 수시로 개인정보보호 의무를 상기시키며 준수
+                          여부를 감시하기 위한 내부 절차를 마련하여 시행하고
+                          있습니다.
+                        </p>
+                        <p class="info_t3">
+                          4. 개인정보 취급자의 업무 인수인계는 보안이 유지된
+                          상태에서 철저하게 이루어지도록 하여, 입사 및 퇴사 후
+                          개인정보 침해사고에 대한 책임을 명확하게 규정하고
+                          있습니다.
+                        </p>
+                        <p class="info_t3">
+                          5. 전산실 및 자료보관실 등을 통제구역으로 설정하여
+                          출입을 통제합니다.
+                        </p>
+                        <p class="info_t3">
+                          6. 서비스 이용계약 체결 또는 서비스 제공을 위하여
+                          고객님의 은행결제계좌, 신용카드번호 등 대금결제에 관한
+                          정보를 수집하거나 고객님께 제공하는 경우 당해 고객님이
+                          본인임을 확인하기 위하여 필요한 조치를 취하고
+                          있습니다.
+                        </p>
+                        <p class="info_t3">
+                          7. AI링고는 고객님 개인의 실수나 기본적인 인터넷의
+                          위험성 때문에 일어나는 일들에 대해 책임을 지지
+                          않습니다. 고객님의 개인정보를 보호하기 위해서 자신의
+                          ID와 비밀번호를 철저히 관리하고 책임을 져야 합니다.
+                        </p>
+
+                        <p class="info_t2">
+                          <strong>제 13조 의견 수렴 및 불만 처리</strong>
+                        </p>
+                        <p class="info_t3">
+                          AI링고는 고객님의 의견을 매우 소중하게 생각합니다.
+                          고객님께서 문의사항이 있을 경우 고객센터 등에 전화로
+                          문의하시면 신속, 정확한 답변을 드리겠습니다.
+                        </p>
+                        <p class="info_t3">
+                          1. 전화번호 : 국번없이 100(자사이용시 무료)
+                        </p>
+                        <p class="info_t3">
+                          2. 온라인상담 : kt.com(http://www.kt.com)에 접속하신
+                          후 '고객센터 - 자주하는 질문/상담 - 이메일상담'에서
+                          상담사에게 문의하실 수 있습니다.
+                        </p>
+
+                        <p class="info_t2">
+                          <strong
+                            >제 13조 개인정보 보호책임 부서 및 연락처</strong
+                          >
+                        </p>
+                        <p class="info_t3">
+                          AI링고는 고객님의 개인정보를 보호하고 개인정보와
+                          관련된 불만 및 문의사항을 처리하기 위하여 아래와 같이
+                          관련 부서를 지정하여 운영하고 있습니다. 또한 고객님의
+                          의견을 매우 소중하게 생각합니다. 고객님께서 서비스의
+                          개인정보 관련 문의사항이 있으실 경우 아래
+                          개인정보보호책임자 및 담당자에게 문의하시면 신속하고
+                          성실하게 답변을 드리겠습니다.
+                        </p>
+                        <p class="info_t3">
+                          1. 개인정보 보호책임 부서 및 연락처
+                        </p>
+                        <p class="info_t3">가. 회사 개인정보보호책임자</p>
+                        <p class="info_t3">• 성명 : 이홍철</p>
+                        <p class="info_t3">• 부서 : AI플랫폼사업담당</p>
+                        <p class="info_t3">
+                          • 전화번호 : 국번없이 100(자사이용시 무료),
+                          1588-0010(타사이용시 유료)
+                        </p>
+                        <p class="info_t3">• 이메일 : privacy@kt.com</p>
+                        <p class="info_t3">나. 서비스 개인정보보호담당자</p>
+                        <p class="info_t3">• 성명 : 박상호</p>
+                        <p class="info_t3">• 부서 : AI Communication 사업팀</p>
+                        <p class="info_t3">
+                          • 전화번호 : 국번없이 100(자사이용시 무료),
+                          1588-0010(타사이용시 유료)
+                        </p>
+                        <p class="info_t3">• 이메일 : privacy@kt.com</p>
+
+                        <p class="info_t2">
+                          <strong>제 14조 개인정보 열람청구</strong>
+                        </p>
+                        <p class="info_t3">
+                          AI링고는 고객님의 개인정보 열람 청구를 위하여 아래와
+                          같이 관련부서를 지정하여 운영하고 있습니다. 고객님께서
+                          서비스의 개인정보 열람을 청구하실 경우 아래 부서
+                          담당자에게 문의하시면 신속하고 성실하게 답변
+                          드리겠습니다.
+                        </p>
+                        <p class="info_t3">
+                          [서비스 개인정보 열람청구 접수/처리부서]
+                        </p>
+                        <p class="info_t3">
+                          가. 부서명 : AI Communication 사업팀
+                        </p>
+                        <p class="info_t3">나. 담당자 : 박상호</p>
+                        <p class="info_t3">
+                          다. 연락처 : 국번없이 100(자사이용시 무료),
+                          1588-0010(타사이용시 유료),
+                        </p>
+                        <p class="info_t3">privacy@kt.com</p>
+
+                        <p class="info_t2">
+                          <strong>제 15조 권익침해 구제방법</strong>
+                        </p>
+                        <p class="info_t3">
+                          기타 개인정보 침해에 대한 신고나 상담이 필요하신
+                          경우에는 아래 기관에 문의하여 주시기 바랍니다.
+                        </p>
+                        <p class="info_t3">
+                          1. 개인정보 침해신고센터 (한국인터넷진흥원 운영)
+                        </p>
+                        <p class="info_t3">
+                          가. 소관업무 : 개인정보 침해사실 신고, 상담 신청
+                        </p>
+                        <p class="info_t3">
+                          나. 홈페이지/전화 : http://privacy.kisa.or.kr /
+                          (국번없이) 118
+                        </p>
+                        <p class="info_t3">2. 개인정보 분쟁조정위원회</p>
+                        <p class="info_t3">
+                          가. 소관업무 : 개인정보 분쟁조정신청,
+                          집단분쟁조정(민사적 해결)
+                        </p>
+                        <p class="info_t3">
+                          나. 홈페이지/전화 : www.kopico.go.kr / (국번없이)
+                          1833-6972
+                        </p>
+                        <p class="info_t3">
+                          3. 대검찰청 사이버수사과 : http://www.spo.go.kr /
+                          (국번없이) 1301
+                        </p>
+                        <p class="info_t3">
+                          4. 경찰청 사이버안전국 :
+                          http://cyberbureau.police.go.kr / (국번없이) 182
+                        </p>
+
+                        <p class="info_t2">
+                          <strong>제 16조 개인정보처리방침 고지</strong>
+                        </p>
+                        <p class="info_t3">
+                          1. 서비스 개인정보처리방침 공고/시행일자
+                        </p>
+                        <p class="info_t3">가. 공고일자 : 2023/09/15</p>
+                        <p class="info_t3">나. 시행일자 : 2023/09/18</p>
+                        <p class="info_t3">
+                          2. 이전 개인정보처리방침은 아래에서 확인하실 수
+                          있습니다.
+                        </p>
+                        <p class="info_t3">가. 2023.09.15 시행 (클릭)</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- s:panel -->
+                </div>
+                <!-- e:tab -->
+              </div>
+            </div>
+          </div>
+          <!-- s:panel -->
+        </div>
+        <!-- e:tab -->
+      </div>
+    </div>
+    <!-- e: 약관 변경 안내 full popup -->
+
+    <script>
+      // 메뉴창, 단촉도구창 표시안함
+      function windowclose() {
+        window.close();
+      }
+    </script>
+  </body>
+</html>
