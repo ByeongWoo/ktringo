@@ -34,6 +34,12 @@ var navigation = function () {
 	}, 250);
 	function hasScrolled() {
 		var st = $(this).scrollTop();
+		// 현재 PWA인지 확인
+		var isPWA = window.matchMedia("(display-mode: standalone)").matches;
+
+		if (isPWA && st < 1) {
+			location.reload();
+		}
 		if (Math.abs(lastScrollTop - st) <= delta) return;
 		// bottom nav
 		if (st > lastScrollTop && st > navbarHeight) {
