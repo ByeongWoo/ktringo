@@ -63,7 +63,7 @@ var navigation = function () {
 		} else {
 			// Scroll Up
 			if (st + $(window).height() < $(document).height()) {
-				// $(".header_wrap").removeClass("scroll");
+				$(".header_wrap").removeClass("scroll");
 			}
 		}
 		lastScrollTop = st;
