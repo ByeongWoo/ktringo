@@ -5,7 +5,7 @@ $(document).ready(function () {
 			var width = window.innerWidth;
 			if (width < 672) {
 				// mobile
-				if (!$('.event-header_wrap').hasClass('scroll')){
+				if (!$('.header_wrap').hasClass('scroll')){
 					$(".header_wrap").addClass("scroll");
 				}
 				$(".navigator").addClass("mobile");
