@@ -44,15 +44,15 @@ var navigation = function () {
 		// bottom nav
 		if (st > lastScrollTop && st > navbarHeight) {
 			// Scroll Down
-			$(".navigator.mobile").removeClass("fixed");
+			// $(".navigator.mobile").removeClass("fixed");
 			// $(".header_wrap").addClass("scroll");
 		} else {
 			// Scroll Up
 			if (st + $(window).height() < $(document).height()) {
-				$(".navigator.mobile").addClass("fixed");
+				// $(".navigator.mobile").addClass("fixed");
 				// $(".header_wrap").removeClass("scroll");
 
-				$(".navigator.mobile").addClass("fixed");
+				// $(".navigator.mobile").addClass("fixed");
 				// $(".header_wrap").removeClass("scroll");
 			}
 		}
