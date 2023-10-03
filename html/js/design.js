@@ -3,11 +3,11 @@ $(document).ready(function () {
 	$(window)
 		.resize(function () {
 			var width = window.innerWidth;
+			if (!$('.header_wrap').hasClass('scroll')){
+				$(".header_wrap").addClass("scroll");
+			}
 			if (width < 672) {
 				// mobile
-				if (!$('.header_wrap').hasClass('scroll')){
-					$(".header_wrap").addClass("scroll");
-				}
 				$(".navigator").addClass("mobile");
 			} else {
 				//web
