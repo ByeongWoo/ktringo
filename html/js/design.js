@@ -40,7 +40,7 @@ var navigation = function () {
 		
 		var isPWA = window.matchMedia("(display-mode: standalone)").matches;
 
-		if (isPWA && st < -5) {
+		if (isPWA && st < -10) {
 			location.reload();
 		}
 		
